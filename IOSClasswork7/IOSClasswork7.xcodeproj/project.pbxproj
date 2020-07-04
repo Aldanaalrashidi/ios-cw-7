@@ -14,6 +14,7 @@
 		048ADADE248EF04800AB3BA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 048ADADC248EF04800AB3BA5 /* LaunchScreen.storyboard */; };
 		048ADAEA2490F9C400AB3BA5 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */; };
 		048ADAEC2490F9F900AB3BA5 /* MoviesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */; };
+		57A1BE6B24B0DDD600338C18 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1BE6A24B0DDD600338C18 /* MasterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		048ADADF248EF04800AB3BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesDataModel.swift; sourceTree = "<group>"; };
+		57A1BE6A24B0DDD600338C18 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */,
+				57A1BE6A24B0DDD600338C18 /* MasterView.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				048ADAEC2490F9F900AB3BA5 /* MoviesDataModel.swift in Sources */,
 				048ADAEA2490F9C400AB3BA5 /* MovieDetailsViewController.swift in Sources */,
 				048ADAD2248EF04400AB3BA5 /* AppDelegate.swift in Sources */,
+				57A1BE6B24B0DDD600338C18 /* MasterView.swift in Sources */,
 				048ADAD4248EF04400AB3BA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
