@@ -8,11 +8,12 @@
 
 import UIKit
 
-class MasterView: UITableViewController {
 
+class MasterView: UITableViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -34,16 +35,12 @@ class MasterView: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        let index = MoviesData[indexPath.row]
+         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
 
         // Configure the cell...
-        cell.textLabel?.text = MoviesData[indexPath.row].movieName
         
-        /*
-         or
-         let index = indexPath.row
-         cell.textLabel?.text = MoviesData[index].movieName
-         */
+        cell.callCell(for: index)
         
         return cell
     }
@@ -97,6 +94,7 @@ class MasterView: UITableViewController {
             let index = sender as! Int
             let vc = segue.destination as! MovieDetailsViewController
             vc.movieData = MoviesData[index]
+
         }
     }
 

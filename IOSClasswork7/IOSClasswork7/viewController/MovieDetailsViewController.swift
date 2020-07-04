@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import AVFoundation
 
 class MovieDetailsViewController: UIViewController {
     
     // the ! is to give it a value later & it couldn't be nil (without a value), i can use it from another vc
     var movieData : moviesModel!
+    var playerSoundEffect: AVAudioPlayer?
     
     @IBOutlet weak var movieImg: UIImageView!
     @IBOutlet weak var movieName: UINavigationItem!
@@ -36,7 +38,7 @@ class MovieDetailsViewController: UIViewController {
         super.viewDidLoad()
         configureUI()
         setMovieDetails()
-
+        playMusic(name: movieData.movieName)
         // Do any additional setup after loading the view.
     }
     
@@ -55,14 +57,24 @@ class MovieDetailsViewController: UIViewController {
                 self.actorName2.text = movieData.actors[1]
                 self.actorImg3.image = UIImage(named: movieData.actors[2])
                 self.actorName3.text = movieData.actors[2]
-        
-        
     }
     
     func configureUI(){
         ratedBG.layer.cornerRadius = 20
         ratingBG.layer.cornerRadius = 20
         yearBG.layer.cornerRadius = 20
+    }
+    
+    func playMusic(name: String){
+        let path = Bundle.main.path(forResource: movieData.movieName, ofType: "m4a")!
+        let url = URL(fileURLWithPath: path)
+        
+        do{
+            playerSoundEffect = try AVAudioPlayer(contentsOf: url)
+            playerSoundEffect?.play()
+        }catch{
+            // couldn't load file
+        }
     }
     
     

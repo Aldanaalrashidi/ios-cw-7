@@ -15,6 +15,13 @@
 		048ADAEA2490F9C400AB3BA5 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */; };
 		048ADAEC2490F9F900AB3BA5 /* MoviesDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */; };
 		57A1BE6B24B0DDD600338C18 /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1BE6A24B0DDD600338C18 /* MasterView.swift */; };
+		57D4FF1224B1165F0084B9BE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4FF1124B1165F0084B9BE /* TableViewCell.swift */; };
+		57D4FF2624B134F40084B9BE /* Guardians of the Galaxy.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57D4FF2024B134E70084B9BE /* Guardians of the Galaxy.m4a */; };
+		57D4FF2724B134F40084B9BE /* Avengers Endgame.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57D4FF2124B134EB0084B9BE /* Avengers Endgame.m4a */; };
+		57D4FF2824B134F40084B9BE /* Thor- Ragnarok.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57D4FF2224B134EF0084B9BE /* Thor- Ragnarok.m4a */; };
+		57D4FF2924B134F40084B9BE /* Black Panther.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57D4FF2324B134F40084B9BE /* Black Panther.m4a */; };
+		57D4FF2F24B135880084B9BE /* Spider-Man.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57D4FF2E24B135880084B9BE /* Spider-Man.m4a */; };
+		57D4FF3124B135B00084B9BE /* Captain America.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 57D4FF3024B135AF0084B9BE /* Captain America.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +34,15 @@
 		048ADADF248EF04800AB3BA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesDataModel.swift; sourceTree = "<group>"; };
+		5762F2EA24B107C200AE825C /* Desktop */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Desktop; path = ../../../../..; sourceTree = "<group>"; };
 		57A1BE6A24B0DDD600338C18 /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		57D4FF1124B1165F0084B9BE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		57D4FF2024B134E70084B9BE /* Guardians of the Galaxy.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Guardians of the Galaxy.m4a"; sourceTree = "<group>"; };
+		57D4FF2124B134EB0084B9BE /* Avengers Endgame.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Avengers Endgame.m4a"; sourceTree = "<group>"; };
+		57D4FF2224B134EF0084B9BE /* Thor- Ragnarok.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Thor- Ragnarok.m4a"; sourceTree = "<group>"; };
+		57D4FF2324B134F40084B9BE /* Black Panther.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Black Panther.m4a"; sourceTree = "<group>"; };
+		57D4FF2E24B135880084B9BE /* Spider-Man.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Spider-Man.m4a"; sourceTree = "<group>"; };
+		57D4FF3024B135AF0084B9BE /* Captain America.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Captain America.m4a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +89,8 @@
 				048ADAEE2490FA1800AB3BA5 /* Model */,
 				048ADAED2490FA0A00AB3BA5 /* viewController */,
 				048ADADA248EF04800AB3BA5 /* Assets.xcassets */,
+				57D4FF1324B12FA10084B9BE /* theme music */,
+				5762F2EA24B107C200AE825C /* Desktop */,
 				048ADADC248EF04800AB3BA5 /* LaunchScreen.storyboard */,
 				048ADADF248EF04800AB3BA5 /* Info.plist */,
 			);
@@ -85,6 +102,7 @@
 			children = (
 				048ADAE92490F9C400AB3BA5 /* MovieDetailsViewController.swift */,
 				57A1BE6A24B0DDD600338C18 /* MasterView.swift */,
+				57D4FF1124B1165F0084B9BE /* TableViewCell.swift */,
 			);
 			path = viewController;
 			sourceTree = "<group>";
@@ -95,6 +113,19 @@
 				048ADAEB2490F9F900AB3BA5 /* MoviesDataModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		57D4FF1324B12FA10084B9BE /* theme music */ = {
+			isa = PBXGroup;
+			children = (
+				57D4FF2324B134F40084B9BE /* Black Panther.m4a */,
+				57D4FF2224B134EF0084B9BE /* Thor- Ragnarok.m4a */,
+				57D4FF2024B134E70084B9BE /* Guardians of the Galaxy.m4a */,
+				57D4FF2124B134EB0084B9BE /* Avengers Endgame.m4a */,
+				57D4FF2E24B135880084B9BE /* Spider-Man.m4a */,
+				57D4FF3024B135AF0084B9BE /* Captain America.m4a */,
+			);
+			path = "theme music";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +187,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				048ADADE248EF04800AB3BA5 /* LaunchScreen.storyboard in Resources */,
+				57D4FF2924B134F40084B9BE /* Black Panther.m4a in Resources */,
+				57D4FF3124B135B00084B9BE /* Captain America.m4a in Resources */,
+				57D4FF2624B134F40084B9BE /* Guardians of the Galaxy.m4a in Resources */,
 				048ADADB248EF04800AB3BA5 /* Assets.xcassets in Resources */,
+				57D4FF2824B134F40084B9BE /* Thor- Ragnarok.m4a in Resources */,
 				048ADAD9248EF04400AB3BA5 /* Main.storyboard in Resources */,
+				57D4FF2F24B135880084B9BE /* Spider-Man.m4a in Resources */,
+				57D4FF2724B134F40084B9BE /* Avengers Endgame.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +208,7 @@
 				048ADAEC2490F9F900AB3BA5 /* MoviesDataModel.swift in Sources */,
 				048ADAEA2490F9C400AB3BA5 /* MovieDetailsViewController.swift in Sources */,
 				048ADAD2248EF04400AB3BA5 /* AppDelegate.swift in Sources */,
+				57D4FF1224B1165F0084B9BE /* TableViewCell.swift in Sources */,
 				57A1BE6B24B0DDD600338C18 /* MasterView.swift in Sources */,
 				048ADAD4248EF04400AB3BA5 /* SceneDelegate.swift in Sources */,
 			);

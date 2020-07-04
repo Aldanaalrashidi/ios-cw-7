@@ -41,3 +41,5 @@ var MoviesData = [
     moviesModel(name: "Guardians of the Galaxy", release: 2014, actors: ["Chris Pratt","Vin Diesel","Zoe Saldana"], rating: 8.0, rated: "PG-13"),
     moviesModel(name: "Spider-Man", release: 2019, actors: ["Tom Holland", "Jake Gyllenhaal","Samuel L. Jackson"], rating: 7.5, rated: "PG-13")
 ]
+
+
