@@ -39,7 +39,7 @@ class MovieDetailsViewController: UIViewController {
         configureUI()
         setMovieDetails()
         playMusic(name: movieData.movieName)
-        // Do any additional setup after loading the view.
+        
     }
     
 
@@ -65,6 +65,7 @@ class MovieDetailsViewController: UIViewController {
         yearBG.layer.cornerRadius = 20
     }
     
+    //theme music
     func playMusic(name: String){
         let path = Bundle.main.path(forResource: movieData.movieName, ofType: "m4a")!
         let url = URL(fileURLWithPath: path)
